@@ -1,15 +1,16 @@
-#RunAnalysis.R
+#run_analysis.R
 #Author: Jacob Jozwiak
 #
-#
+#This script performs the tidying of the data from the UCI HAR Dataset, and then writes out a secondary tidy dataset
+#containing a summarised view of the mean and standard deviation measurements as required by the assignment.
 
 #ASSUMPTIONS: 
-    #The dplyr and tidyr packages are installed. If they are missing, install the packages
-    #install.packages("dplyr")
-    #install.packages("tidyr)
+#The dplyr and tidyr packages are installed. If they are missing, install the packages
+#install.packages("dplyr")
+#install.packages("tidyr)
 
-    #The required UCI HAR Dataset folder and its contents are in the working directory. 
-    #If these files are missing, download them from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#The required UCI HAR Dataset folder and its contents are in the working directory. 
+#If these files are missing, download them from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 #Required libraries
